@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Habolt By Shiva Pandey Next.js Project
 
-## Getting Started
+## Live Link: https://habot-by-shiva-pandey.vercel.app
 
-First, run the development server:
+This repository houses a Next.js project "Habolt" built with a focus on clean code, dynamic data handling, reusable components, and responsive design. Tailwind CSS powers the styling, ensuring a modern and adaptable layout across all devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Dynamic Data Handling**: All data is managed through organized arrays, avoiding hardcoded values for ease of updates and scalability.
+- **Component-Based Structure**: Components are used for each element, promoting code reuse, modularity, and readability.
+- **Responsive Design**: Tailwind CSS enables a responsive, modern look that works seamlessly across devices and screen sizes.
+- **Clean & Well-Commented Code**: The code is carefully structured and documented to enhance readability, making it easy for collaborators to understand and contribute.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project follows a component-driven architecture:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```plaintext
+.
+├── components    # Reusable components
+├── pages         # Application routes
+├── styles        # Tailwind configurations and global styles
+├── public        # Static assets
