@@ -4,6 +4,9 @@
 
 This repository houses a Next.js project "Habolt" built with a focus on clean code, dynamic data handling, reusable components, and responsive design. Tailwind CSS powers the styling, ensuring a modern and adaptable layout across all devices.
 
+![image](https://github.com/user-attachments/assets/edd666ee-bfb3-459c-be21-c61f37d4961a)
+
+
 ## Features
 
 - **Dynamic Data Handling**: All data is managed through organized arrays, avoiding hardcoded values for ease of updates and scalability.
