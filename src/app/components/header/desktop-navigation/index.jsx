@@ -53,7 +53,7 @@ export default function DesktopNavigation({ nav_links, button_data }) {
                         
                             dropdownOpen === index && links.sub_links.length > 0 && (
 
-                                <div className="absolute top-full right-0 mt-2 w-48 bg-white shadow-lg rounded-md">
+                                <div className="absolute z-10 top-full right-0 mt-2 w-48 bg-white shadow-lg rounded-md">
                                     {
                                     
                                         links.sub_links.map( ( subLink, subIndex ) => (
